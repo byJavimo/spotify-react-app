@@ -1,0 +1,27 @@
+.search-bar {
+    display: flex;
+    margin: 30px auto;
+    max-width: 50%;
+    
+    .search-input {
+        flex: 3;
+        min-width: 50%;
+
+        .MuiInputBase-input {
+            color: #fff;
+        }
+
+        .MuiOutlinedInput-notchedOutline {
+            border-color: #fff;
+        }
+
+        label {
+            color: #fff;
+        }
+    }
+
+    .search-button {
+        flex: 1;
+        margin-left: 30px; 
+    }
+}
